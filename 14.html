@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <!--this is the head of my html code-->
+       <title>MANTHAN DUDHAT</title>
+</head>
+	<body>
+	<center>
+		<form method="POST">
+                        
+                        <!--INSERTING TABLE-->
+
+			<table style="border:10px;1px solid black;background-color:lightblue;border-collapse:collapse">
+
+				<tr><th colspan="2" style="color:red">REGISTRATION FORM </th></tr>
+
+                          <!--ADDING TEXT FIELD FOR NAME-->
+
+					<td><label><b>Company name:</b></label></td>
+					<td><input type="name" id="fullnameId" name="fullname" size="20" autocomplete required placeholder="Enter your name"></td>
+				</tr>
+
+                          <!--ADDING NUMBER FIELD FOR EMPLOYEE ID-->
+
+                                <tr>
+		                        <td><label><b>Staff Id:</b></label></td>
+					<td><input type="number" id="empId" name="mpId" min="0" max="20" step="3"></td>
+				</tr>
+
+                          <!--ADDING RADIO BUTTON FOR GENDER-->
+
+				<tr>
+		                        <td><label><b>Gender:</b></label></td>
+					<td><input type="radio" id="maleId" name="gender"><label for="maleId">Male</label>
+					<input type="radio" id="fmaleId" name="gender"><label for="fmaleId">Female</label></td>
+				</tr>
+
+                           <!--PHONE NUMBER-->
+                         
+                                <tr>  
+					<td><label><b>Phone Number:</b></label></td>
+					<td><input type="int" id="phId" phone number="phId" placeholder="0477-2234431" pattern="[0-9]{4}-[0-9]{7}"></td>
+			                      
+			        </tr> 
+
+                           <!--ADDING TEXTAREA FOR ADDRESS-->
+
+				<tr>
+					<td><label><b>Company Address:</b></label></td>
+					<td><textarea rows="8" cols="23" placeholder="Enter Company address"></textarea></td>
+				</tr>
+
+                          <!--ADDING CHECKBOX FOR LANGUAGE KNOWN-->
+
+				<tr>
+					<td><label><b>Language Known:</b></label></td>
+					<td><input type="checkbox" id="checkEng" name="checkEng" value="E"><label for="checkEng">HTML</label><br>
+					<input type="checkbox" id="checkHin" name="checkHin" value="H"><label for="checkHin">CSS</label><br>
+                                        <input type="checkbox" id="checkMal" name="checkMal" value="M"><label for="checkMal">JAVASCRIPT</label><br>
+                                        <input type="checkbox" id="checkTam" name="checkTam" value="T"><label for="checkTam">C++</label><br>
+					</td>
+				</tr>
+
+                          <!--ADDING <SELECT> & <OPTION> FOR RELATION STATUS-->
+
+				<tr>
+					<td><label><b>Relation status:</b></label></td>
+					<td><select>
+						<option value="">Choose an option</option>
+						<option value="s">Single</option>
+						<option value="m">Married</option>
+					</select>
+                                        </td>
+				</tr>
+
+                       
+                        <!--EMAIL-->
+
+				<tr>
+					<td><label><b>Email Id:</b></label></td>
+					<td><input type="email" id="emailId" name="emailId" placeholder="Enter your email"></td>
+				</tr>
+
+                         <!--PASSWORD-->
+
+				<tr>
+					<td><label><b>Password:</b></label></td>
+					<td><input type="password" id="password" name="password" placeholder="Enter your password"></td>
+				</tr>
+
+                          <!--ADDING IMAGE-->
+
+                                <tr>
+                                        <td><img src="reg.jpg" alt="register" width="100" height="100"></td>
+                                </tr>
+
+                          <!--ADDING BUTTONS-->
+
+			          <td></td>
+				  <td><input type="submit" name="submitButton" value="Register">
+                                     <input type="reset" name="resetButton" value="Reset"></td>
+				</tr>
+			</table>
+		</form>
+		</center>
+	</body>
+</html>	
